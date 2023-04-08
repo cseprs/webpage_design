@@ -1,0 +1,58 @@
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: pink;
+    color: white;
+  }
+  body {
+    margin: 10px;
+    
+  }
+  .features_field{
+margin-top: 10px;
+  }
+
+  .first_field:hover{
+    background-color: blueviolet;
+      }
+
+      .second_field:hover{
+        background-color: blueviolet;
+          }
+
+          .third_field:hover{
+            background-color: blueviolet;
+              }
+
+
+              .fourth_field:hover{
+                background-color: blueviolet;
+                  }
+
+  .about_section{
+    margin-top: 10px;
+  }
+
+  .welcome_section{
+    background-color: green;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .courses_button{
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+  }
+
+  .all_courses_section{
+    background-image: url(sigmund-AQTA5E6mCNU-unsplash.jpg);
+    text-align: center;
+    height: 400px;
+  }
+  .quote_section{
+    font-size: 40px;
+    text-align: center;
+     background-color: greenyellow;
+  }
+  
