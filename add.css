@@ -59,3 +59,22 @@ margin-top: 10px;
 font-size: 25px;
 
   }
+
+  .top_header{
+
+    background-color: black;
+
+  }
+  .top_page_header{
+
+    background-color: brown;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  #initial_block{
+    background-color: aqua;
+  }
+  .box{
+    border-style: double;
+  }
