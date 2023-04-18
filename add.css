@@ -1,7 +1,7 @@
 footer {
     text-align: center;
     padding: 3px;
-    background-color: pink;
+    background-color: brown;
     color: white;
   }
   body {
@@ -13,20 +13,20 @@ margin-top: 10px;
   }
 
   .first_field:hover{
-    background-color: blueviolet;
+    background-color: brown;
       }
 
       .second_field:hover{
-        background-color: blueviolet;
+        background-color: brown;
           }
 
           .third_field:hover{
-            background-color: blueviolet;
+            background-color: brown;
               }
 
 
               .fourth_field:hover{
-                background-color: blueviolet;
+                background-color: brown;
                   }
 
   .about_section{
@@ -34,7 +34,7 @@ margin-top: 10px;
   }
 
   .welcome_section{
-    background-color: green;
+    background-color: brown;
     margin-top: 10px;
     text-align: center;
   }
@@ -46,14 +46,14 @@ margin-top: 10px;
   }
 
   .all_courses_section{
-    background-image: url(sigmund-AQTA5E6mCNU-unsplash.jpg);
+    background-image: url(Mentimeter_VisualAssets_Illustrations_IllustrationLibrary_Compositions_2022_03_2.png);
     text-align: center;
     height: 400px;
   }
   .quote_section{
     font-size: 40px;
     text-align: center;
-     background-color: greenyellow;
+     background-color: #8dba95;
   }
   .caption_one {
 font-size: 25px;
@@ -77,4 +77,16 @@ font-size: 25px;
   }
   .box{
     border-style: double;
+  }
+
+  #upcoming1:hover{
+    background-color:#8dba95 ;
+  }
+
+  #upcoming2:hover{
+    background-color:brown ;
+  }
+
+  #upcoming3:hover{
+    background-color:#ec7d6b ;
   }

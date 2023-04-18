@@ -65,7 +65,7 @@
         <h1>Welcome to Website</h1>
 <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <a href="file:///C:/Users/csepr_utwv3lm/OneDrive/Desktop/git/webpage_design/aboutus.html#courses"  class="btn btn-primary" role="button">Courses</a><button class="contact_button">Contact</button>
+    <a href="file:///C:/Users/csepr_utwv3lm/OneDrive/Desktop/git/webpage_design/aboutus.html#courses"  class="btn btn-secondary" role="button">Courses</a><a href="file:///C:/Users/csepr_utwv3lm/OneDrive/Desktop/git/webpage_design/aboutus.html#contact"  class="btn btn-light" role="button">Contact</a>
 </div>
 </div>
 
@@ -137,17 +137,26 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
-                <h3 id="courses"> all courses</h3>
+                <h3 id="courses"> All courses</h3>
                 <p>All our available courses listed below</p>
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-3">
-               <div class="card" style="width:18rem margin-right=20px">
+                        <div class="card-wrapper" id="data_menu">
+               <div class="card-up card-rotating" style="width:18rem margin-right=20px">
                 <h3 class="card_title">orem ipsum dolor sit amet</h3>
                     <div class="card_body">
                         <img src="sigmund-AQTA5E6mCNU-unsplash.jpg" width="200" height="200">
+                        <a class="rotate-btn" data-card="data_menu">ck here to rotate</a>
                     </div>
                 </div>
+
+                <div class="card-back card-rotating" style="width:18rem margin-right=20px">
                 
+                <h2>hello</h2>
+                <a class="rotate-btn" data-card="data_menu">ck here to rotate</a>
+                </div>
+ 
+               </div>
                </div>
                <div class="col-lg-3 col-md-3 col-sm-3">
                 <div class="card" style="width:18rem margin-right=20px">
@@ -191,36 +200,43 @@
             </div>
         </div>
         <div class="row">
+           
             <div class="col-lg-4 col-md-4 col-sm-4">
-                <div class="card w-75">
+               
+                <div class="card w-75" id="upcoming1">
+                    <h3 class="card_title">What is Lorem Ipsum?</h3>
+                    
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            
+        
+        
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                
+                <div class="card w-75" id="upcoming2">
                     <h3 class="card_title">What is Lorem Ipsum?</h3>
                     <div class="card_body">
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
             </div>
+        
+        
             <div class="col-lg-4 col-md-4 col-sm-4">
-                <div class="card w-75">
+                
+                <div class="card w-75" id="upcoming3">
                     <h3 class="card_title">What is Lorem Ipsum?</h3>
                     <div class="card_body">
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4">
-                <div class="card w-75">
-                    <h3 class="card_title">What is Lorem Ipsum?</h3>
-                    <div class="card_body">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
+                    
                 </div>
             </div>
         </div>
-        <div class="column">
-            <div class="col-lg-12 col-md-12 col-sm-12">
-                <img src="#" width="850" height="100">
-            </div>
-        </div>
+    </div>
+
+    
+       
     </div>
 </div>
 <footer>
@@ -228,7 +244,7 @@
 <div class="row">
 <div class="col-lg-3 col-md-3 col-sm-12">
 <img src="virender-singh-hE0nmTffKtM-unsplash.jpg" width="30" height="30">
-<p>Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!</p>
+<p id="contact">Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!</p>
 
 </div>
 <div class="col-lg-3 col-md-3 col-sm-12">
