@@ -3,13 +3,14 @@ footer {
     padding: 3px;
     background-color: brown;
     color: white;
+    margin-top: 20px;
   }
   body {
     margin: 10px;
     
   }
   .features_field{
-margin-top: 10px;
+margin-top: 20px;
   }
 
   .first_field:hover{
@@ -30,12 +31,12 @@ margin-top: 10px;
                   }
 
   .about_section{
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .welcome_section{
     background-color: brown;
-    margin-top: 10px;
+    margin-top: 0px;
     text-align: center;
   }
 
@@ -44,16 +45,29 @@ margin-top: 10px;
     margin-bottom: 20px;
 
   }
+  #courses{
+    font-size: 30px;
+  }
 
   .all_courses_section{
     background-image: url(Mentimeter_VisualAssets_Illustrations_IllustrationLibrary_Compositions_2022_03_2.png);
     text-align: center;
-    height: 400px;
+    height: 600px;
+    margin-top: 20px;
   }
+.courses_sub_sections{
+  padding-top: 60px;
+  padding-left: 30px;
+}
+
+
+
+
   .quote_section{
     font-size: 40px;
     text-align: center;
      background-color: #8dba95;
+     margin-top: 5px;
   }
   .caption_one {
 font-size: 25px;
@@ -65,11 +79,11 @@ font-size: 25px;
     background-color: black;
 
   }
-  .top_page_header{
+  .header{
 
     background-color: brown;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding: 10px 16px;
+    
   }
 
   #initial_block{
@@ -79,9 +93,15 @@ font-size: 25px;
     border-style: double;
   }
 
+  .upcoming_courses{
+    margin-top: 20px;
+  }
+
   #upcoming1:hover{
     background-color:#8dba95 ;
   }
+
+  
 
   #upcoming2:hover{
     background-color:brown ;
@@ -90,6 +110,8 @@ font-size: 25px;
   #upcoming3:hover{
     background-color:#ec7d6b ;
   }
+
+
 
   /*flip card block*/
 
@@ -129,7 +151,7 @@ font-size: 25px;
   }
   
   .flip-card-front {
-    background: linear-gradient(to left, #4364f7, #6fb1fc);
+    background: linear-gradient(to left, brown, brown);
     color: black;
     z-index: 2;
     display: flex;
@@ -138,7 +160,7 @@ font-size: 25px;
   }
   
   .flip-card-back {
-    background: linear-gradient(to right, #4364f7, #6fb1fc);
+    background: linear-gradient(to right, #8dba95, #8dba95);
     color: white;
     transform: rotateY(180deg);
     z-index: 1;
@@ -146,10 +168,10 @@ font-size: 25px;
     justify-content: center;
     align-items: center;
   }
-  h3 {
+  #boldplus {
     font-size: 20px;
     font-family: Verdana, sans-serif;
     font-weight: bold;
     color: #fff;
   }
-  
+ 
